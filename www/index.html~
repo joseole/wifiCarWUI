@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <title> Wifi-Car box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Le styles -->
+    <link href="bs.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="bs-r.min.css" rel="stylesheet">
+
+  </head>
+  <body onload="createImageLayer();">
+    <div class="container">
+      <div class="hero-unit" style="text-align:center">
+      	
+        <img src="/?action=stream" class="img-rounded" /> 
+        <br>
+         
+        <div class="btn-group btn-toolbar">
+        
+          <div class="btn-group btn-group-vertical"> 
+            <a class="btn btn-large" href="/ahead"><i class="icon-arrow-up"></i></a>
+          </div>
+          <br>
+          <div class="btn-group">
+            <a class="btn btn-large" href="#"><i class="icon-arrow-left"></i></a>
+            <a class="btn btn-large" href="#">  <i class="icon-off">  </i></a>
+            <a class="btn btn-large" href="#"><i class="icon-arrow-right"></i></a>
+          </div>
+          <br>
+          <div class="btn-group btn-group-vertical">
+            <a class="btn btn-large" href="#"><i class="icon-arrow-down"></i></a>
+          </div>
+        </div>
+      
+      </div>
+      <footer class="pull-right">
+        <p>&copy; www.open-drone.org 2012</p>
+      </footer>
+    </div> <!-- /container -->
+  <script src="bs.min.js"></script>
+  </body>
+</html>
